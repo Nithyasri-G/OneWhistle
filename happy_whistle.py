@@ -5,10 +5,11 @@ import os
 import winsound
 import threading
 import time
-
+import dotenv import load_dotenv
 # --- CONFIGURATION ---
 
-
+load_dotenv()
+google_api_key=os.getenv('GOOGLE_API_KEY')
 OFFERS = [
     "Buy 1 Get 1 on Cocktails",
     "50% off on Beer", 
