@@ -8,7 +8,7 @@ import time
 
 # --- CONFIGURATION ---
 
-GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY', 'AIzaSyArIJ_2WRGI7nOzfzmXSZXs5HXaCPxLnWE')
+
 OFFERS = [
     "Buy 1 Get 1 on Cocktails",
     "50% off on Beer", 
