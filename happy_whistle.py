@@ -67,7 +67,7 @@ def collect_happy_hour_restaurants(location: dict, radius: int = 1000) -> list:
     lat, lng = location["latitude"], location["longitude"]
     url = (
         "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
-        f"?location={lat},{lng}&radius={radius}&type=restaurant&key={GOOGLE_API_KEY}"
+        f"?location={lat},{lng}&radius={radius}&type=restaurant&key={google_api_key}"
     )
     
     try:
